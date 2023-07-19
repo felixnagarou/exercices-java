@@ -1,3 +1,5 @@
+package demos;
+
 import java.util.Scanner;
 
 public class Exercice004 {
