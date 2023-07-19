@@ -13,4 +13,5 @@ public class Exercice004 {
         verification = age1 >= 18;
         System.out.println(verification);
     }
+}
 
