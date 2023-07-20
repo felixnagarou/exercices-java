@@ -1,5 +1,7 @@
 package Exercices2;
 
+
+//Le programme permet de déterminer si un caractère est une voyelle ou une consonne, peut importe l'entrée de l'utillisateur
 import java.text.Normalizer;
 import java.util.Scanner;
 
