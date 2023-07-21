@@ -4,8 +4,8 @@ package Exercices2;
 //Le programme permet de déterminer si un caractère est une voyelle ou une consonne, peut importe l'entrée de l'utillisateur
 import java.text.Normalizer;
 import java.util.Scanner;
-
-import static java.lang.Character.*;
+import static java.lang.Character.isLetter;
+import static java.lang.Character.toLowerCase;
 
 public class Exercice004_p71 {
     public static void main(String[] args) {
@@ -35,7 +35,6 @@ public class Exercice004_p71 {
                 }
                 else { //continuer le parcours du tableau jusqu'à trouver la voyelle correspondante
                     continue;
-
                 }
             }// sortie de la boucle for; soit le programme est fini, soit il reste à évaluer la cas "consonne"
             if (check == false) { //récupération du booléen check pour ne pas afficher la ligne ci-dessous automatiquement
