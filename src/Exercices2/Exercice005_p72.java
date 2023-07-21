@@ -17,8 +17,5 @@ public class Exercice005_p72 {
         else {
             System.out.println("Erreur. Veuillez entrer un chiffre compris entre 1 et 7.");
         }
-
-
-
     }
 }
