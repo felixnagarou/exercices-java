@@ -20,7 +20,5 @@ public class Exercice008_p74 {
         else {
             System.out.println("Le caractère saisi est un caractère spécial");
         }
-
-
     }
 }
