@@ -19,7 +19,7 @@ public class Exercice004_p96 {
             } else {
                 if (tableau[i] > nombreMax) {
                     nombreMax = tableau[i];
-                    System.out.println("Le maximum est " + nombreMax);
+                    System.out.println("Le maximum est " + nombreMax + " à l'indice "  + i);
                 }
             }
 
