@@ -6,7 +6,7 @@ public class Exercice001_p94 {
 
         for (int i = 0; i <= tableau.length -1; i += 10 ) {
 
-            //System.out.print(", " + tableau[i]);
+
             for (int j = 0; j <=  tableau.length/10; j++) {
                 tableau[j] =  i + j;
                 System.out.print(tableau[j] + ", ");
