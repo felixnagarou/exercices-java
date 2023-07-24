@@ -9,11 +9,11 @@ public class Exercice001_p94 {
             //System.out.print(", " + tableau[i]);
             for (int j = 0; j <=  tableau.length/10; j++) {
                 tableau[j] =  i + j;
-                System.out.print(tableau[j] + " ");
+                System.out.print(tableau[j] + ", ");
 
 
             }
-            System.out.println("\n");
+            System.out.println(" \n");
 
 
         }
