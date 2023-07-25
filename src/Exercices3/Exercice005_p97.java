@@ -29,14 +29,9 @@ public class Exercice005_p97 {
                 }
             }
             System.out.println("Les tableaux sont égaux");
-
         }
         else {
             System.out.println("La taille des tableaux n'est pas équivalente");
         }
-
-
-
-
     }
 }
